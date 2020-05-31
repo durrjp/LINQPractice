@@ -1,11 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LINQPractice
 {
     public class Program
     {
         public static void Main() {
+            List<Bank> banks = new List<Bank>() {
+                new Bank(){ Name="First Tennessee", Symbol="FTB"},
+                new Bank(){ Name="Wells Fargo", Symbol="WF"},
+                new Bank(){ Name="Bank of America", Symbol="BOA"},
+                new Bank(){ Name="Citibank", Symbol="CITI"},
+            };
+
+            
             List<Customer> customers = new List<Customer>() {
                 new Customer(){ Name="Bob Lesman", Balance=80345.66, Bank="FTB"},
                 new Customer(){ Name="Joe Landy", Balance=9284756.21, Bank="WF"},
@@ -65,6 +74,24 @@ namespace LINQPractice
             {
                 Console.WriteLine($"Bank: {item.Key}, Millionaires: {item.Value}");
             }
+            Console.WriteLine("-------------");
+
+            List<ReportItem> millionaireReport = new List<ReportItem>();
+            foreach (Customer customer in customers)
+            {
+                Bank customerBank = banks.First(b => b.Symbol == customer.Bank);
+                if(customer.Balance >= 1_000_000)
+                {
+                    millionaireReport.Add(new ReportItem(){CustomerName = customer.Name, BankName = customerBank.Name});
+                }
+            }            
+            millionaireReport.Sort((x, y) => string.Compare(x.LastName, y.LastName));
+
+            foreach (ReportItem item in millionaireReport)
+            {
+                Console.WriteLine($"{item.CustomerName} at {item.BankName}");
+            }
+
         }
     }
 }
