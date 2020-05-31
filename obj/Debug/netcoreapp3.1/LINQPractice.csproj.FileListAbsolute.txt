@@ -1,0 +1,13 @@
+C:\Users\durrj\workspace\LINQPractice\obj\Debug\netcoreapp3.1\LINQPractice.csprojAssemblyReference.cache
+C:\Users\durrj\workspace\LINQPractice\obj\Debug\netcoreapp3.1\LINQPractice.AssemblyInfoInputs.cache
+C:\Users\durrj\workspace\LINQPractice\obj\Debug\netcoreapp3.1\LINQPractice.AssemblyInfo.cs
+C:\Users\durrj\workspace\LINQPractice\obj\Debug\netcoreapp3.1\LINQPractice.csproj.CoreCompileInputs.cache
+C:\Users\durrj\workspace\LINQPractice\bin\Debug\netcoreapp3.1\LINQPractice.exe
+C:\Users\durrj\workspace\LINQPractice\bin\Debug\netcoreapp3.1\LINQPractice.deps.json
+C:\Users\durrj\workspace\LINQPractice\bin\Debug\netcoreapp3.1\LINQPractice.runtimeconfig.json
+C:\Users\durrj\workspace\LINQPractice\bin\Debug\netcoreapp3.1\LINQPractice.runtimeconfig.dev.json
+C:\Users\durrj\workspace\LINQPractice\bin\Debug\netcoreapp3.1\LINQPractice.dll
+C:\Users\durrj\workspace\LINQPractice\bin\Debug\netcoreapp3.1\LINQPractice.pdb
+C:\Users\durrj\workspace\LINQPractice\obj\Debug\netcoreapp3.1\LINQPractice.dll
+C:\Users\durrj\workspace\LINQPractice\obj\Debug\netcoreapp3.1\LINQPractice.pdb
+C:\Users\durrj\workspace\LINQPractice\obj\Debug\netcoreapp3.1\LINQPractice.genruntimeconfig.cache
